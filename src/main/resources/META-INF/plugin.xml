@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>com.locales.locales-finder</id>
+    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <version>1.0</version>
+    <name>Locales-finder</name>
+    <description><![CDATA[
+    This is a simple plugin to extract key chain path of a locale value.<br>
+    <em>most HTML tags may be used</em>
+  ]]>
+    </description>
+    <vendor>empty</vendor>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Locales Extraction Window" anchor="left"
+                    factoryClass="MyToolWindowFactory" icon="/static/images/window-icon.png"/>
+        <notificationGroup id="Custom Notification Group"
+                           displayType="BALLOON"/>
+    </extensions>
+    <actions>
+        <action id="MyPlugin.HelloAction" class="com.locales.localesfinder.MyAction" text="Extract Locales" description="A test action" icon="/static/images/window-icon.png">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+
+        </action>
+
+    </actions>
+</idea-plugin>
