@@ -13,7 +13,7 @@ class SearchListner(private val searchTextField: SearchTextField, private val lo
         println("Search String is : $searchString")
 
         filteredLocales = if(searchTextField.text.isNotEmpty()) {
-            locales.stream().filter { locale -> locale.contains(searchString) }.collect(Collectors.toList())
+            locales.stream().filter { locale -> locale.lowercase().contains(searchString.lowercase()) }.collect(Collectors.toList())
         } else locales
         println("Filtered locales: $filteredLocales")
 

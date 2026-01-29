@@ -120,7 +120,7 @@ class MyAction() : AnAction() {
     }
 
     private fun extractLocales(inputStream: InputStream): List<String>{
-        val content = BufferedReader(InputStreamReader(inputStream)).readText();
+        val content = BufferedReader(InputStreamReader(inputStream, Charsets.UTF_8)).readText();
         val mapper = ObjectMapper()
         val rootNode = mapper.readTree(content) ?: return arrayListOf()
         rootNode.traverse()
