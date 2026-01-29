@@ -6,6 +6,7 @@
 
 
 ## 🛠 Tech Stack
+![Release](https://img.shields.io/github/v/release/Yassine-Azougagh/Locales-Finder?style=for-the-badge)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=000000)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white&labelColor=000000)
 ![JSON](https://img.shields.io/badge/JSON-ECD53F?style=for-the-badge&logo=json&logoColor=white&labelColor=000000)
@@ -72,18 +73,24 @@
 
 ---
 
-## 📥 Installation
+
+## 🔗 Links
+
+- [GitHub Repository](https://github.com/Yassine-Azougagh/Locales-Finder)
+
+---
+## 📥 Download
+
+👉 [Download Latest Release](https://github.com/Yassine-Azougagh/Locales-Finder/releases/latest)
+
+---
+
+## 📦 Installation
 
 - Clone the repository: `git clone https://github.com/Yassine-Azougagh/Locales-Finder.git`
 - Open the project in IntelliJ IDEA
 - Build the plugin with Gradle: `./gradlew buildPlugin`
 - Install from disk via **Settings → Plugins → Install Plugin from Disk**
-
----
-
-## 🔗 Links
-
-- [GitHub Repository](https://github.com/Yassine-Azougagh/Locales-Finder.git)
 
 ---
 
