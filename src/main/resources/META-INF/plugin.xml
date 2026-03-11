@@ -1,14 +1,12 @@
 <idea-plugin>
     <id>com.locales.locales-finder</id>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="yassineazougagh746@gmail.com" >Yassine</vendor>
     <version>1.0</version>
-    <name>Locales-finder</name>
-    <description><![CDATA[
-    This is a simple plugin to extract key chain path of a locale value.<br>
-    <em>most HTML tags may be used</em>
-  ]]>
+    <name>Locales-Finder</name>
+    <description>
+        Locales Finder helps you find your locales faster. It reads the JSON locales file recursively, extracting all keychain and their corresponding value.
+        Than it organize the data in a table with search and copy capabilities, so you can work more on what matters !
     </description>
-    <vendor>empty</vendor>
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="Locales Extraction Window" anchor="left"
