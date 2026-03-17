@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.locales.locales-finder</id>
     <vendor email="yassineazougagh746@gmail.com" >Yassine</vendor>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <name>Locales-Finder</name>
     <description>
         Locales Finder helps you find your locales faster. It reads the JSON locales file recursively, extracting all keychain and their corresponding value.
